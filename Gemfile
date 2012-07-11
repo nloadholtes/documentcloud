@@ -8,7 +8,7 @@ gem 'calais',         '>= 0.0.11'
 gem 'rest-client',    '>= 1.0.3', :require => 'rest_client'
 gem 'bcrypt-ruby',    '>= 2.1.2', :require => 'bcrypt'
 gem 'rubyzip',        '>= 0.9.1', :require => 'zip/zip'
-gem 'right_aws',      '>= 2.0.1'  # Our patched version.
+gem 'right_aws',      '>= 2.0.1'  # (Isn't) Our patched version (yet).
 gem 'pg',             '>= 0.11.0'
 gem 'jammit',         '>= 0.6.5'
 gem 'docsplit',       '>= 0.6.3'
@@ -25,3 +25,4 @@ gem 'curb',           '~> 0.7.15'
 gem 'daemons',        '~> 1.1.4'
 gem 'cloud-crowd',    '~> 0.6.2'
 gem 'yui-compressor', '~> 0.9.6'
+gem 'thin',           '1.2.7'
