@@ -499,7 +499,7 @@ class Document < ActiveRecord::Base
   end
 
   def canonical_url(format = :json, allow_ssl = false)
-    File.join(DC.server_root(:ssl => allow_ssl), canonical_path(format))
+    File.join(DC.server_root(:ssl => allow_ssl, :agnostic => format == :js), canonical_path(format))
   end
 
   def search_url
